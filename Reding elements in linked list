@@ -1,0 +1,24 @@
+import java.util.*;
+class List
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int n;
+ArrayList<Integer>x1=new ArrayList<Integer>();
+x1.add(10);
+x1.add(20);
+x1.add(60);
+x1.add(70);
+x1.add(40);
+System.out.println("List is "+x1);
+System.out.println("Enter value to Search");
+int key=sc.nextInt();
+if(x1.contains(key))
+System.out.println("Element found");
+else
+System.out.println("Element not found");
+x1.set(int);
+System.out.println("Delete found Element");
+}
+}
